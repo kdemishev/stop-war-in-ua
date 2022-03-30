@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "manufactories",
+  "info": {
+    "singularName": "manufactory",
+    "pluralName": "manufactories",
+    "displayName": "manufactory"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
