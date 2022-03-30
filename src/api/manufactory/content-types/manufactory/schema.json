@@ -28,6 +28,17 @@
     },
     "description": {
       "type": "text"
+    },
+    "barcodes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::barcode.barcode"
+    },
+    "brands": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::brand.brand",
+      "mappedBy": "manufactory"
     }
   }
 }
